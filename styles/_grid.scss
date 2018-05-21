@@ -1,0 +1,27 @@
+
+
+.grid-container {
+
+  .row {
+    display: flex;
+
+    &:not(:first-child) {
+      .pixel {
+        border-top: 0;
+      }
+    }
+
+    > .pixel:not(:last-child) {
+      border-right: 0;
+    }
+  }
+
+  .pixel {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+
+    border: 1px solid $color-0;
+    background: $color-2;
+  }
+}

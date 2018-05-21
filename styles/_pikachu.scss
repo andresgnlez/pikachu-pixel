@@ -1,0 +1,46 @@
+
+.pixel {
+  &.-w {
+    background: $color-2;
+  }
+
+  &.-bl {
+    background: $color-1;
+  }
+
+  &.-y {
+    background: $color-3;
+  }
+
+  &.-yd {
+    background: $color-4;
+  }
+
+  &.-yl {
+    background: $color-10;
+  }
+
+  &.-rd {
+    background: $color-5;
+  }
+
+  &.-rdd {
+    background: $color-6;
+  }
+
+  &.-br {
+    background: $color-7;
+  }
+
+  &.-brd {
+    background: $color-8;
+  }
+
+  &.-pk {
+    background: $color-9;
+  }
+
+  &.-gr {
+    background: $color-11;
+  }
+}

@@ -1,9 +1,12 @@
 {
   "name": "pikachu-grid",
   "version": "0.1.0",
+  "homepage": "https://andresgnlez.github.io/pikachu-pixel/",
   "private": true,
   "dependencies": {
+    "gh-pages": "^1.1.0",
     "node-sass-chokidar": "^1.3.0",
+    "npm": "^6.0.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-scripts": "1.1.4"
@@ -14,6 +17,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "build-styles": "node-sass-chokidar styles/ -o src/",
-    "watch-styles": "npm run build-styles && node-sass-chokidar styles/ -o src/ --watch --recursive"
+    "watch-styles": "npm run build-styles && node-sass-chokidar styles/ -o src/ --watch --recursive",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
